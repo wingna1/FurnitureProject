@@ -5,5 +5,6 @@ import lombok.Data;
 @Data
 public class FurnitureDTO {
 	private String name;
-	private String id;z
+	private String id;
+	private String plz;
 }
