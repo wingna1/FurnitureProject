@@ -7,4 +7,5 @@ public class FurnitureDTO {
 	private String name;
 	private String id;
 	private String plz;
+	private String p;
 }
