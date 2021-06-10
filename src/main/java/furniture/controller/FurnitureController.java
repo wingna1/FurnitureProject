@@ -25,6 +25,22 @@ public class FurnitureController {
 	@Autowired
 	private FurnitureService furnitureService;
 	
+	@RequestMapping(value="/main/exampleDisplay", method=RequestMethod.GET)
+	public String exampleDisplay(Model model) {
+		model.addAttribute("display", "/main/exampleDisplay.jsp");
+		return "/index";
+	}
+	
+	
+	//  절대주소 수정 완료 ... index, main 폴더 이동 가능!
+	@RequestMapping(value = "/main/GOexampleDisplay", method=RequestMethod.POST)
+	@ResponseBody
+	public String GOexampleDisplay(@RequestParam String anything) {
+		//ModelAndView mav = new ModelAndView();
+		
+		//mav.addObject("anything", anything);
+		return anything;
+	}
 	
 	
 }
