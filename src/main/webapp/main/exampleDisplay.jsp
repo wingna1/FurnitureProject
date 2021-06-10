@@ -6,7 +6,7 @@
 	안녕 나는 샘플
 	</p>
 	<input type="text" name="anything" id="anything">
-	<input type="button" name="aaa" id="aaa">
+	<input type="button" name="aaa" id="aaa" value="sdfsd">
 	<br>
 	<div id="bbb"></div>
 </div>
@@ -16,7 +16,7 @@
 $('#aaa').click(function() {
 	$.ajax({
 		type: 'post',
-		url: '/furniture/GOexampleDisplay',
+		url: '/furniture/main/GOexampleDisplay',
 		data: {'anything': $('#anything').val()},
 		dataType: 'text',
 		success: function(data) {

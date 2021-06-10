@@ -53,14 +53,13 @@
                             <div class="header__logo">
                                 <a href="/furniture/index.jsp"><img src="/furniture/img/logo.png" alt="" width="120px" height="52px"></a>
                             </div>
-     <%--  --%>
                             <div class="header__top__right">
                                 <div class="header__top__right__links">
-                                    <a href="#" class="search-switch"><img src="/FurnitureProject/img/icon/search.png" alt=""></a>
-                                    <a href="#"><img src="/FurnitureProject/img/icon/heart.png" alt=""></a>
+                                    <a href="#" class="search-switch"><img src="/furniture/img/icon/search.png" alt=""></a>
+                                    <a href="#"><img src="/furniture/img/icon/heart.png" alt=""></a>
                                 </div>
                                 <div class="header__top__right__cart">
-                                    <a href="#"><img src="/FurnitureProject/img/icon/cart.png" alt=""> <span>0</span></a>
+                                    <a href="#"><img src="/furniture/img/icon/cart.png" alt=""> <span>0</span></a>
                                     <div class="cart__price">Cart: <span id="장바구니_총금액"></span></div>
                                 </div>
                             </div>
