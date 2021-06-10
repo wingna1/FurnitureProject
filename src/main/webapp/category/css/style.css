@@ -429,7 +429,7 @@ ol {
    color: #000000;
 }
 
-.hero__categories__bed:after {
+.hero__categories__bed:before {
    position: absolute;
    right: 18px;
    top:px;
@@ -437,7 +437,7 @@ ol {
    font-family: "ElegantIcons";
    font-size: 18px;
    color: #000000;
-}
+} 
  /*카테고리 소파*/
 .hero__categories__sofa {
    position: relative;
@@ -451,7 +451,7 @@ ol {
    color: #000000;
 }
 
-.hero__categories__sofa:after {
+.hero__categories__sofa:before {
    position: absolute;
    right: 18px;
    top:px;
@@ -472,7 +472,7 @@ ol {
    color: #000000;
 }
 
-.hero__categories__bookshelf:after {
+.hero__categories__bookshelf:before {
    position: absolute;
    right: 18px;
    top:px;
@@ -493,7 +493,7 @@ ol {
    color: #000000;
 }
 
-.hero__categories__desk:after {
+.hero__categories__desk:before {
    position: absolute;
    right: 18px;
    top:px;
@@ -514,7 +514,7 @@ ol {
    color: #000000;
 }
 
-.hero__categories__closet:after {
+.hero__categories__closet:before {
    position: absolute;
    right: 18px;
    top:px;
@@ -535,7 +535,7 @@ ol {
    color: #000000;
 }
 
-.hero__categories__clothes:after {
+.hero__categories__clothes:before {
    position: absolute;
    right: 18px;
    top:px;
@@ -556,7 +556,7 @@ ol {
    color: #000000;
 }
 
-.hero__categories__chair:after {
+.hero__categories__chair:before {
    position: absolute;
    right: 18px;
    top:px;
@@ -707,6 +707,7 @@ ol {
 -----------------------*/
 
 .categories__item {
+   margin-top: 10px;
    height: 270px;
    position: relative;
 }

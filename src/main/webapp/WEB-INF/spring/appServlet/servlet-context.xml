@@ -13,12 +13,13 @@
 	<annotation-driven />
 
 	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
-	<resources mapping="/resources/**" location="/resources/" />
-	<resources mapping="/image/**" location="/image/" />
-	<resources mapping="/js/**" location="/js/" />
-	<resources mapping="/storage/**" location="/storage/" />
-	<resources mapping="/css/**" location="/css/" />
-	<resources mapping="/fonts/**" location="/fonts/" />
+	<resources mapping="/category/resources/**" location="/category/resources/" />
+	<resources mapping="/category/image/**" location="/category/image/" />
+	<resources mapping="/category/js/**" location="/category/js/" />
+	<resources mapping="/category/storage/**" location="/category/storage/" />
+	<resources mapping="/category/css/**" location="/category/css/" />
+	<resources mapping="/category/fonts/**" location="/category/fonts/" />
+	<resources mapping="/category/view/**" location="/category/view/" />
 	
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
