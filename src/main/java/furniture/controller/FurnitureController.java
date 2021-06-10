@@ -42,5 +42,9 @@ public class FurnitureController {
 		return anything;
 	}
 	
-	
+	@RequestMapping(value="/main/indexDisplay", method=RequestMethod.GET)
+	public String indexDisplay(Model model) {
+		model.addAttribute("display", "/main/indexDisplay.jsp");
+		return "/index";
+	}
 }
