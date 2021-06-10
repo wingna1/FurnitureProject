@@ -96,9 +96,28 @@
     });
 
 
-    $('.hero__categories__all').on('click', function(){
-        $('.hero__categories ul').slideToggle(400);
+    $('.hero__categories__bed').on('click', function(){
+        $('.hero__categories__bed ul').slideToggle(400);
     });
+    $('.hero__categories__sofa').on('click', function(){
+        $('.hero__categories__sofa ul').slideToggle(400);
+    });
+    $('.hero__categories__bookshelf').on('click', function(){
+        $('.hero__categories__bookshelf ul').slideToggle(400);
+    });
+    $('.hero__categories__desk').on('click', function(){
+        $('.hero__categories__desk ul').slideToggle(400);
+    });
+    $('.hero__categories__closet').on('click', function(){
+        $('.hero__categories__closet ul').slideToggle(400);
+    });
+    $('.hero__categories__clothes').on('click', function(){
+        $('.hero__categories__clothes ul').slideToggle(400);
+    });
+    $('.hero__categories__chair').on('click', function(){
+        $('.hero__categories__chair ul').slideToggle(400);
+    });
+    
 
     /*--------------------------
         Latest Product Slider

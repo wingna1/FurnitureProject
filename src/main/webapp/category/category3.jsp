@@ -10,7 +10,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ogani | Template</title>
+    <title>IKEZKE</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -40,24 +40,8 @@
                         <a href="./index.html"><img src="../image/logo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <nav class="header__menu">
-                        <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="./shop-grid.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
+               <div class="col-lg-6">                 
+                </div> 
                 <div class="col-lg-4">
                     <div class="header__cart">
                         <ul>
@@ -83,35 +67,82 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                        <div class="hero__categories__bed">                    
+                            <a>침대</a>
+                            <ul class= "hide">
+                               <li><a href="#">소파베드</a></li>
+                               <li><a href="#">수납형침대</a></li>
+                               <li><a href="#">간이침대</a></li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
-                        </ul>
+                        <div class="hero__categories__sofa">                    
+                            <a>소파</a>
+                            <ul class= "hide">
+                               <li><a href="#">패브릭소파</a></li>
+                               <li><a href="#">모듈식소파</a></li>
+                               <li><a href="#">천연/인조가죽 소파</a></li>
+                           </ul>
+                        </div>
+                        <div class="hero__categories__bookshelf">                    
+                            <a>책장/선반유닛</a>
+                            <ul class= "hide">
+                               <li><a href="#">큐브형수납</a></li>
+                               <li><a href="#">선반유닛</a></li>
+                               <li><a href="#">책장</a></li>
+                               <li><a href="#">수납선반/유닛</a></li>
+                           </ul>
+                        </div>
+                        <div class="hero__categories__desk">                    
+                            <a>식탁/책상</a>
+                            <ul class= "hide">
+                               <li><a href="#">책상/컴퓨터책상</a></li>
+                               <li><a href="#">침대협탁</a></li>
+                               <li><a href="#">식탁세트</a></li>
+                               <li><a href="#">화장대</a></li>
+                               <li><a href="#">카페테이블</a></li>
+                           </ul>
+                        </div>
+                        <div class="hero__categories__closet">                    
+                            <a>수납장 / 장식장</a>
+                            <ul class= "hide">
+                               <li><a href="#">거실장/찬장</a></li>
+                               <li><a href="#">장식장</a></li>
+                               <li><a href="#">수납장</a></li>
+                               <li><a href="#">서랍장</a></li>
+                           </ul>
+                        </div>
+                        <div class="hero__categories__clothes">                    
+                            <a>옷장</a>
+                            <ul class= "hide">
+                               <li><a href="#">여닫이옷장</a></li>
+                               <li><a href="#">미닫이옷장</a></li>
+                               <li><a href="#">거울옷장</a></li>
+                               <li><a href="#">드레스룸옷장</a></li>
+                               <li><a href="#">선반형옷장</a></li>
+                           </ul>
+                        </div>
+                        <div class="hero__categories__chair">                    
+                            <a>의자</a>
+                            <ul class= "hide">
+                               <li><a href="#">사무용의자</a></li>
+                               <li><a href="#">식탁의자</a></li>
+                               <li><a href="#">스툴/벤치</a></li>
+                               <li><a href="#">카페의자</a></li>
+                           </ul>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
-                                <div class="hero__search__categories">
+                                <!-- <div class="hero__search__categories">
                                     All Categories
                                     <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                </div> -->
+                                <input type="text" placeholder="검색">
+                                <button type="submit" class="site-btn">검색</button>
                             </form>
                         </div>
                     </div>
@@ -124,15 +155,7 @@
                         </div>
                     </div>
                     
-                    
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
-
-    <!-- Categories Section Begin -->
+                    <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
             <div class="row">
@@ -316,6 +339,7 @@
         </div>
     </section>
     <!-- Featured Section End -->
+    
 
     <!-- Banner Begin -->
     <div class="banner">
@@ -539,6 +563,15 @@
         </div>
     </section>
     <!-- Latest Product Section End -->
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    
 
     <!-- Footer Section Begin -->
     <footer class="footer spad">
