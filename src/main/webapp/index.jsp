@@ -15,16 +15,16 @@
     rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="/FurnitureProject/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/FurnitureProject/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/style.css" type="text/css">
     
     
     
@@ -51,16 +51,15 @@
                                 </ul>
                             </div>
                             <div class="header__logo">
-                                <a href="./index"><img src="/FurnitureProject/img/logo.png" alt="" width="120px" height="52px"></a>
+                                <a href="/furniture/index.jsp"><img src="/furniture/img/logo.png" alt="" width="120px" height="52px"></a>
                             </div>
-     <%--  --%>
                             <div class="header__top__right">
                                 <div class="header__top__right__links">
-                                    <a href="#" class="search-switch"><img src="/FurnitureProject/img/icon/search.png" alt=""></a>
-                                    <a href="#"><img src="/FurnitureProject/img/icon/heart.png" alt=""></a>
+                                    <a href="#" class="search-switch"><img src="/furniture/img/icon/search.png" alt=""></a>
+                                    <a href="#"><img src="/furniture/img/icon/heart.png" alt=""></a>
                                 </div>
                                 <div class="header__top__right__cart">
-                                    <a href="#"><img src="/FurnitureProject/img/icon/cart.png" alt=""> <span>0</span></a>
+                                    <a href="#"><img src="/furniture/img/icon/cart.png" alt=""> <span>0</span></a>
                                     <div class="cart__price">Cart: <span id="장바구니_총금액"></span></div>
                                 </div>
                             </div>
@@ -194,7 +193,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            <a href="#"><img src="img/logo.png" alt=""  width="120px" height="52px"></a>
+                            <a href="#"><img src="/furniture/img/logo.png" alt=""  width="120px" height="52px"></a>
                         </div>
 <!--                         <p>Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore dolore magna aliqua.</p>
@@ -253,15 +252,15 @@
 <!-- Search End -->
 
 <!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/jquery.barfiller.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/main.js"></script>
+<script src="/furniture/js/jquery-3.3.1.min.js"></script>
+<script src="/furniture/js/bootstrap.min.js"></script>
+<script src="/furniture/js/jquery.nice-select.min.js"></script>
+<script src="/furniture/js/jquery.barfiller.js"></script>
+<script src="/furniture/js/jquery.magnific-popup.min.js"></script>
+<script src="/furniture/js/jquery.slicknav.js"></script>
+<script src="/furniture/js/owl.carousel.min.js"></script>
+<script src="/furniture/js/jquery.nicescroll.min.js"></script>
+<script src="/furniture/js/main.js"></script>
 
 </body>
 </html>

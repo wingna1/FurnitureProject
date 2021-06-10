@@ -32,13 +32,14 @@ public class FurnitureController {
 	}
 	
 	
+	//  절대주소 수정 완료 ... index, main 폴더 이동 가능!
 	@RequestMapping(value = "/main/GOexampleDisplay", method=RequestMethod.POST)
 	@ResponseBody
-	public String GOexampleDisplay(@RequestParam String anything, Model model) {
-		model.addAttribute("anything", anything);
-		model.addAttribute("display", "/main/exampleDisplay.jsp");
+	public String GOexampleDisplay(@RequestParam String anything) {
+		//ModelAndView mav = new ModelAndView();
 		
-		return "/index";
+		//mav.addObject("anything", anything);
+		return anything;
 	}
 	
 	
