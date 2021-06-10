@@ -17,6 +17,12 @@
 	<resources mapping="/image/**" location="/image/" />
 	<resources mapping="/js/**" location="/js/" />
 	<resources mapping="/storage/**" location="/storage/" />
+	<resources mapping="/css/**" location="/css/" />
+	<resources mapping="/img/**" location="/img/" />
+	<resources mapping="/sass/**" location="/sass/" />
+	<resources mapping="/fonts/**" location="/fonts/" />
+	<resources mapping="/Source/**" location="/Source/" />
+	<resources mapping="/main/**" location="/main/" />
 	
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -39,7 +45,6 @@
 	</beans:bean>
 	
 	
-	<!-- 디폴트로 값이 정해져있다 -->
 	<context:component-scan base-package="com.mvc.furniture" />
 	<context:component-scan base-package="furniture.controller" />
 
