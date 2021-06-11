@@ -69,6 +69,7 @@
                 <div class="canvas__open"><i class="fa fa-bars"></i></div>
             </div>
         </div>
+        <!-- header 색: style.css의 310번 줄 background -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -151,10 +152,7 @@
 
 	<div id="section">
 		<c:if test="${empty display }">
-			<h1>
-				홈페이지를 방문해주셔서 감사합니다.<br>
-				Have a nice day!! <br>
-			</h1>
+			<jsp:include page="/main/indexDisplay.jsp" />
 		</c:if>
 		<c:if test="${not empty display }">
 			<jsp:include page="${display }" />
