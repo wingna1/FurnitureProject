@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="/furniture/css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="/furniture/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/furniture/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/furniture/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/index.css" type="text/css">
     
     
     
@@ -150,16 +150,14 @@
 
 
 	<div id="section">
-		<c:if test="${empty display }">
-			<h1>
-				홈페이지를 방문해주셔서 감사합니다.<br>
-				Have a nice day!! <br>
-			</h1>
-		</c:if>
-		<c:if test="${not empty display }">
-			<jsp:include page="${display }" />
-		</c:if>
-	</div>
+      <c:if test="${empty display }">
+         <jsp:include page="/main/indexDisplay.jsp" />
+      </c:if>
+      <c:if test="${not empty display }">
+         <jsp:include page="${display }" />
+      </c:if>
+   </div>
+
 
 
 
@@ -167,7 +165,7 @@
 
 
     <!-- Footer Section Begin -->
-    <footer class="footer set-bg"  style="background-color: black;">
+    <footer class="footer set-bg"  style="background-color: #1F1F2F;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
