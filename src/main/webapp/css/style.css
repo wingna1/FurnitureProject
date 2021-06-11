@@ -1677,6 +1677,7 @@ ol {
   color: #140949;
   padding: 14px;
   line-height: 16px;
+  
 }
 .product__details__option .primary-btn {
   margin-right: 20px;
@@ -1690,6 +1691,7 @@ ol {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          
 }
 .product__details__tab .nav-tabs .nav-item {
   margin-right: 45px;
