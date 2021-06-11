@@ -1719,8 +1719,9 @@ ol {
   border-bottom: 2px solid transparent;
 }
 .product__details__tab .nav-tabs .nav-item .nav-link.active {
-  color: #111111;
-  border-bottom: 1px solid #111111;
+  color: #8089BF ;
+  border-bottom: 1px solid #8089BF;
+  
 }
 .product__details__tab .tab-content p {
   color: #444444;
