@@ -69,7 +69,6 @@
                 <div class="canvas__open"><i class="fa fa-bars"></i></div>
             </div>
         </div>
-        <!-- header 색: style.css의 310번 줄 background -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -151,13 +150,14 @@
 
 
 	<div id="section">
-		<c:if test="${empty display }">
-			<jsp:include page="/main/indexDisplay.jsp" />
-		</c:if>
-		<c:if test="${not empty display }">
-			<jsp:include page="${display }" />
-		</c:if>
-	</div>
+      <c:if test="${empty display }">
+         <jsp:include page="/main/indexDisplay.jsp" />
+      </c:if>
+      <c:if test="${not empty display }">
+         <jsp:include page="${display }" />
+      </c:if>
+   </div>
+
 
 
 
@@ -165,7 +165,7 @@
 
 
     <!-- Footer Section Begin -->
-    <footer class="footer set-bg"  style="background-color: black;">
+    <footer class="footer set-bg"  style="background-color: #1F1F2F;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">

@@ -20,29 +20,29 @@
     <link rel="stylesheet" href="/furniture/css/style.css" type="text/css">
     
     
-    <!-- style.css 155줄에 .primary-btn의 배경 색상 변경 -->
+    
 <!-- Hero Section Begin 큰 배너사진-->
     <section class="hero">
         <div class="hero__slider owl-carousel">
-            <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+            <div class="hero__item set-bg" data-setbg="/furniture/image/123.jpg">
                 <div class="container">
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-8">
                             <div class="hero__text">
-                                <h2>하하하하하</h2>
-                                <a href="#" class="primary-btn">Our cakes</a>
+                                <h2>주방가구 기획전 </h2>
+                                <a href="#" class="primary-btn">보러가기</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+            <div class="hero__item set-bg" data-setbg="/furniture/image/1234.jpg">
                 <div class="container">
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-8">
                             <div class="hero__text">
-                                <h2>나나난난 나나난 나나난</h2>
-                                <a href="#" class="primary-btn">Our cakes</a>
+                                <h2>침실가구 기획전</h2>
+                                <a href="#" class="primary-btn">보러가기</a>
                             </div>
                         </div>
                     </div>
@@ -59,34 +59,34 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="about__text">
                         <div class="section-title">
-                            <span>About Cake shop</span>
-                            <h2>Cakes and bakes from the house of Queens!</h2>
+                            <span>IKEZKE</span>
+                            <h2> 고객들이 알아보는 IKEZKE! </h2>
                         </div>
-                        <p>The "Cake Shop" is a Jordanian Brand that started as a small family business. The owners are
-                        Dr. Iyad Sultan and Dr. Sereen Sharabati, supported by a staff of 80 employees.</p>
+                        <p> 집의 공간마다 가구를 어떻게 배치하고 어떤 소품을 놓느냐에 따라서도 집에 좋은 기운이 잘 들어올 수 있다고 합니다.
+                        IKEZKE에서 그 답을 알려드립니다 !  </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="about__bar">
                         <div class="about__bar__item">
-                            <p>Cake design</p>
+                            <p>상품 만족도</p>
                             <div id="bar1" class="barfiller">
+                                <div class="tipWrap"><span class="tip"></span></div>
+                                <span class="fill" data-percentage="90"></span>
+                            </div>
+                        </div>
+                        <div class="about__bar__item">
+                            <p>서비스 만족도</p>
+                            <div id="bar2" class="barfiller">
                                 <div class="tipWrap"><span class="tip"></span></div>
                                 <span class="fill" data-percentage="95"></span>
                             </div>
                         </div>
                         <div class="about__bar__item">
-                            <p>Cake Class</p>
-                            <div id="bar2" class="barfiller">
-                                <div class="tipWrap"><span class="tip"></span></div>
-                                <span class="fill" data-percentage="80"></span>
-                            </div>
-                        </div>
-                        <div class="about__bar__item">
-                            <p>Cake Recipes</p>
+                            <p>재구매율</p>
                             <div id="bar3" class="barfiller">
                                 <div class="tipWrap"><span class="tip"></span></div>
-                                <span class="fill" data-percentage="90"></span>
+                                <span class="fill" data-percentage="87"></span>
                             </div>
                         </div>
                     </div>
@@ -96,70 +96,25 @@
     </section>
     <!-- About Section End -->
 
-    <!-- Categories Section Begin -->
-    <!-- <div class="categories">
-        <div class="container">
-            <div class="row">
-                <div class="categories__slider owl-carousel">
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-029-cupcake-3"></span>
-                            <h5>Cupcake</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-034-chocolate-roll"></span>
-                            <h5>Butter</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-005-pancake"></span>
-                            <h5>Red Velvet</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-030-cupcake-2"></span>
-                            <h5>Biscuit</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-006-macarons"></span>
-                            <h5>Donut</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-006-macarons"></span>
-                            <h5>Cupcake</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Categories Section End -->
 
-    <!-- Product Section Begin -->
+
     <!-- /////////////////////////////////////////////////////////////// 상품 DB에서 판매량 순으로 긁어와 노출 -->
+    <!-- Product Section Begin -->
     <section class="product spad">
         <div class="container">
-   	 <h2>Weekly Best Seller</h2>
-   	 <br>
+               <h2>Weekly Best Seller</h2>
+               <br>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-1.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/침대.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Dozen Cupcakes</a></h6>
-                            <div class="product__item__price">$32.00</div>
+                            <h6><a href="#">잠이솔솔 침대</a></h6>
+                            <div class="product__item__price">₩ 5,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -168,14 +123,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-2.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/소파.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Cookies and Cream</a></h6>
-                            <div class="product__item__price">$30.00</div>
+                            <h6><a href="#">푹신한 소파</a></h6>
+                            <div class="product__item__price">₩ 8,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -184,14 +139,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-3.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/책장.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Gluten Free Mini Dozen</a></h6>
-                            <div class="product__item__price">$31.00</div>
+                            <h6><a href="#">튼튼 책장</a></h6>
+                            <div class="product__item__price">₩ 4,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -200,14 +155,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-4.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/밥상.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Cookie Dough</a></h6>
-                            <div class="product__item__price">$25.00</div>
+                            <h6><a href="#">밥잘먹는식탁</a></h6>
+                            <div class="product__item__price">₩ 3,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -216,14 +171,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-5.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/수납장.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Vanilla Salted Caramel</a></h6>
-                            <div class="product__item__price">$05.00</div>
+                            <h6><a href="#">책책책 수납장</a></h6>
+                            <div class="product__item__price">₩ 1,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -232,14 +187,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-6.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/옷장.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">German Chocolate</a></h6>
-                            <div class="product__item__price">$14.00</div>
+                            <h6><a href="#">더사더사 옷장</a></h6>
+                            <div class="product__item__price">₩ 2,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -248,14 +203,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-7.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/의자.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Dulce De Leche</a></h6>
-                            <div class="product__item__price">$32.00</div>
+                            <h6><a href="#">너도나도 앉아의자</a></h6>
+                            <div class="product__item__price">₩ 4,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -264,14 +219,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-8.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/침대.png">
                             <div class="product__label">
-                                <span>Cupcake</span>
+                                <span>카테고리</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Mississippi Mud</a></h6>
-                            <div class="product__item__price">$08.00</div>
+                            <h6><a href="#">희희</a></h6>
+                            <div class="product__item__price">₩ 2,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
                             </div>
@@ -283,120 +238,13 @@
     </section>
     <!-- Product Section End -->
 
-  <!--   <!-- Class Section Begin
-    <section class="class spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="class__form">
-                        <div class="section-title">
-                            <span>Class cakes</span>
-                            <h2>Made from your <br />own hands</h2>
-                        </div>
-                        <form action="#">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Phone">
-                            <select>
-                                <option value="">Studying Class</option>
-                                <option value="">Writting Class</option>
-                                <option value="">Reading Class</option>
-                            </select>
-                            <input type="text" placeholder="Type your requirements">
-                            <button type="submit" class="site-btn">registration</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="class__video set-bg" data-setbg="img/class-video.jpg">
-                <a href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1"
-                class="play-btn video-popup"><i class="fa fa-play"></i></a>
-            </div>
-        </div>
-    </section>
-    Class Section End -->
+    
 
-    <!-- <!-- Team Section Begin
-    <section class="team spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-7">
-                    <div class="section-title">
-                        <span>Our team</span>
-                        <h2>Sweet Baker </h2>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-5">
-                    <div class="team__btn">
-                        <a href="#" class="primary-btn">Join Us</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item set-bg" data-setbg="img/team/team-1.jpg">
-                        <div class="team__item__text">
-                            <h6>Randy Butler</h6>
-                            <span>Decorater</span>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item set-bg" data-setbg="img/team/team-2.jpg">
-                        <div class="team__item__text">
-                            <h6>Randy Butler</h6>
-                            <span>Decorater</span>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item set-bg" data-setbg="img/team/team-3.jpg">
-                        <div class="team__item__text">
-                            <h6>Randy Butler</h6>
-                            <span>Decorater</span>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="team__item set-bg" data-setbg="img/team/team-4.jpg">
-                        <div class="team__item__text">
-                            <h6>Randy Butler</h6>
-                            <span>Decorater</span>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    Team Section End -->
-
+    
 <!-- ///////////////////////////////////////////////////////////////////상품평 DB에서 긁어오기 ... 
-	append사용? 혹은 하나하나  class명으로 긁어오기 -->
-	
-	
+   append사용? 혹은 하나하나  class명으로 긁어오기 -->
+   
+   
     <!-- Testimonial Section Begin -->
     <section class="testimonial spad">
         <div class="container">
@@ -404,7 +252,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="section-title">
                         <span>Testimonial</span>
-                        <h2>Our client say</h2>
+                        <h2>최신 상품평 넣을겡욧</h2>
                     </div>
                 </div>
             </div>
@@ -547,8 +395,8 @@
         </div>
     </section>
     <!-- Testimonial Section End -->
-	
-    <!-- Instagram Section Begin -->
+
+     <!-- Instagram Section Begin -->
     <section class="instagram spad">
         <div class="container">
             <div class="row">
@@ -565,32 +413,32 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="instagram__pic">
-                                <img src="img/instagram/instagram-1.jpg" alt="">
+                                <img src="img/3.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="instagram__pic middle__pic">
-                                <img src="img/instagram/instagram-2.jpg" alt="">
+                                <img src="img/4.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="instagram__pic">
-                                <img src="img/instagram/instagram-3.jpg" alt="">
+                                <img src="img/5.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="instagram__pic">
-                                <img src="img/instagram/instagram-4.jpg" alt="">
+                                <img src="img/6.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="instagram__pic middle__pic">
-                                <img src="img/instagram/instagram-5.jpg" alt="">
+                                <img src="img/7.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div class="instagram__pic">
-                                <img src="img/instagram/instagram-3.jpg" alt="">
+                                <img src="img/8.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -600,7 +448,7 @@
     </section>
     <!-- Instagram Section End -->
 
-    <!-- Map Begin -->
+        <!-- Map Begin -->
     <div class="map">
         <div class="container">
             <div class="row">
@@ -617,8 +465,8 @@
             </div>
         </div>
         <div class="map__iframe">
-        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.207136148256!2d127.02213775088205!3d37.50303247971076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca158ae940859%3A0xe06b7199c296fc2e!2z7ISc7Jq47Yq567OE7IucIOyEnOy0iOq1rCDshJzstIg064-ZIOqwleuCqOuMgOuhnCA0NTk!5e0!3m2!1sko!2skr!4v1623303859695!5m2!1sko!2skr" 
-        	 height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.207136148256!2d127.02213775088205!3d37.50303247971076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca158ae940859%3A0xe06b7199c296fc2e!2z7ISc7Jq47Yq567OE7IucIOyEnOy0iOq1rCDshJzstIg064-ZIOqwleuCqOuMgOuhnCA0NTk!5e0!3m2!1sko!2skr!4v1623303859695!5m2!1sko!2skr" 
+            height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
             <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10784.188505644011!2d19.053119335158936!3d47.48899529453826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1543907528304" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
         </div>
     </div>
@@ -626,16 +474,5 @@
     
     
     
-    
-<!-- Js Plugins -->
-<script src="/furniture/js/jquery-3.3.1.min.js"></script>
-<script src="/furniture/js/bootstrap.min.js"></script>
-<script src="/furniture/js/jquery.nice-select.min.js"></script>
-<script src="/furniture/js/jquery.barfiller.js"></script>
-<script src="/furniture/js/jquery.magnific-popup.min.js"></script>
-<script src="/furniture/js/jquery.slicknav.js"></script>
-<script src="/furniture/js/owl.carousel.min.js"></script>
-<script src="/furniture/js/jquery.nicescroll.min.js"></script>
-<script src="/furniture/js/main.js"></script>
     
     

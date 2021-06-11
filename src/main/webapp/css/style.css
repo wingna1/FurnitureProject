@@ -110,7 +110,7 @@ ol {
   margin-bottom: 35px;
 }
 .section-title span { 
-  color: #f08632;
+  color: #140949;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -459,10 +459,10 @@ ol {
   margin-right: -5px;
 }
 .header__menu ul li.active a {
-  background: #111111;
+  background: #140949;
 }
 .header__menu ul li:hover a {
-  background: #111111;
+  background: #140949;
 }
 .header__menu ul li:hover .dropdown {
   top: 62px;
@@ -547,7 +547,7 @@ ol {
   top: 15px;
   height: calc(100% - 30px);
   width: calc(100% - 30px);
-  border: 1px dashed #f08632;
+  border: 1px dashed #140949;
   content: "";
   opacity: 0.3;
 }
@@ -642,8 +642,8 @@ ol {
   bottom: -48px;
   width: 15px;
   height: 15px;
-  border: 1px solid #f08632;
-  border-color: transparent #f08632 #f08632 transparent;
+  border: 1px solid #140949;
+  border-color: transparent #140949 #140949 transparent;
   content: "";
   -webkit-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
@@ -654,7 +654,7 @@ ol {
   transition: all, 0.3s;
 }
 .categories__item:hover {
-  background: #f08632;
+  background: #140949;
 }
 .categories__item:hover:after {
   opacity: 1;
@@ -667,7 +667,7 @@ ol {
 }
 
 .categories__item__icon span {
-  color: #f08632;
+  color: #140949;
   -webkit-transition: all, 0.2s;
   -o-transition: all, 0.2s;
   transition: all, 0.2s;
@@ -769,7 +769,7 @@ ol {
   display: inline-block;
   width: 70px;
   height: 70px;
-  background: #f08632;
+  background: #140949;
   font-size: 24px;
   color: #ffffff;
   line-height: 70px;
@@ -843,7 +843,7 @@ ol {
   Testimonial
 -----------------------*/
 .testimonial {
-  background: #fdf3ea;
+  background: #E5E9F5;
   padding-top: 90px;
   padding-bottom: 70px;
 }
@@ -940,7 +940,7 @@ ol {
   position: absolute;
   left: 0;
   top: -34px;
-  background: url(../img/instagram/cake-piece.png) no-repeat;
+  background: url(../img/instabg.png) no-repeat;
   height: 139px;
   width: 114px;
   content: "";
@@ -974,7 +974,8 @@ ol {
 .map .container {
   position: relative;
   z-index: 5;
-  top: 20px;
+  top: 5px;
+  left:-160px;
 }
 
 .map__iframe {
@@ -1007,7 +1008,7 @@ ol {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
-  margin: 0 auto;
+  margin: -1080;
 }
 .map__inner h6 {
   color: #111111;
@@ -1033,7 +1034,7 @@ ol {
   margin-bottom: 40px;
 }
 .product__item:hover .product__item__pic .product__label span {
-  background: #f08632;
+  background: #140949;
   color: #ffffff;
 }
 .product__item:hover .product__item__text .product__item__price {
@@ -1109,7 +1110,7 @@ ol {
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
-  border-bottom: 2px solid #f08632;
+  border-bottom: 2px solid #5080DA;
   padding-bottom: 4px;
 }
 
@@ -1232,7 +1233,7 @@ ol {
 }
 .footer__newslatter form button {
   font-size: 20px;
-  color: #f08632;
+  color: #140949;
   background: transparent;
   border: none;
   position: absolute;
@@ -1254,10 +1255,10 @@ ol {
   color: #888888;
 }
 .copyright__text i {
-  color: #f08632;
+  color: #140949;
 }
 .copyright__text a {
-  color: #f08632;
+  color: #140949;
 }
 
 .copyright__widget {
@@ -1383,7 +1384,7 @@ ol {
   display: inline-block;
   width: 70px;
   height: 70px;
-  background: #f08632;
+  background: #140949;
   font-size: 24px;
   color: #ffffff;
   line-height: 70px;
@@ -1591,7 +1592,7 @@ ol {
   display: inline-block;
   font-size: 14px;
   color: #ffffff;
-  background: #111111;
+  background: #140949;
   padding: 6px 10px 4px;
   border-radius: 4px;
 }
@@ -1673,7 +1674,7 @@ ol {
   font-size: 20px;
   border: 1px solid #e1e1e1;
   display: inline-block;
-  color: #f08632;
+  color: #140949;
   padding: 14px;
   line-height: 16px;
 }
@@ -1957,7 +1958,7 @@ ol {
   margin-bottom: 50px;
 }
 .coupon__code span {
-  color: #f08632;
+  color: #140949;
 }
 .coupon__code a {
   color: #444444;
@@ -1981,7 +1982,7 @@ ol {
   margin-bottom: 12px;
 }
 .checkout__input p span {
-  color: #f08632;
+  color: #140949;
 }
 .checkout__input input {
   height: 50px;
@@ -2023,7 +2024,7 @@ ol {
   visibility: hidden;
 }
 .checkout__input__checkbox label input:checked ~ .checkmark {
-  border-color: #f08632;
+  border-color: #140949;
 }
 .checkout__input__checkbox label input:checked ~ .checkmark:after {
   opacity: 1;
@@ -2044,7 +2045,7 @@ ol {
   top: -3px;
   width: 14px;
   height: 7px;
-  border: solid #f08632;
+  border: solid #140949;
   border-width: 1.5px 1.5px 0px 0px;
   -webkit-transform: rotate(127deg);
   -ms-transform: rotate(127deg);
@@ -2133,7 +2134,7 @@ ol {
   overflow: hidden;
 }
 .checkout__total__all li span {
-  color: #f08632;
+  color: #140949;
   float: right;
 }
 
@@ -2224,7 +2225,7 @@ ol {
   margin-bottom: 55px;
 }
 .class__item:hover .class__item__pic .label {
-  background: #f08632;
+  background: #140949;
 }
 .class__item:hover .class__item__text h5 a {
   text-decoration: underline;
@@ -2274,7 +2275,7 @@ ol {
 }
 .class__item__text .read_more {
   font-size: 16px;
-  color: #f08632;
+  color: #140949;
   font-weight: 600;
 }
 
@@ -2372,7 +2373,7 @@ ol {
   font-size: 14px;
   color: #ffffff;
   font-weight: 600;
-  background: #f08632;
+  background: #140949;
   display: inline-block;
   padding: 4px 15px 2px;
 }
@@ -2425,7 +2426,7 @@ ol {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 3px;
-  border-bottom: 2px solid #f08632;
+  border-bottom: 2px solid #140949;
 }
 
 /*---------------------
@@ -2527,7 +2528,7 @@ ol {
   text-decoration: line-through;
 }
 .blog__sidebar__item .blog__sidebar__item__categories ul li:hover a span {
-  color: #f08632;
+  color: #140949;
 }
 .blog__sidebar__item .blog__sidebar__item__categories ul li a {
   font-size: 16px;
@@ -2578,7 +2579,7 @@ ol {
   visibility: hidden;
 }
 .blog__sidebar__item form label input:checked ~ .checkmark {
-  border-color: #f08632;
+  border-color: #140949;
 }
 .blog__sidebar__item form label input:checked ~ .checkmark:after {
   opacity: 1;
@@ -2599,7 +2600,7 @@ ol {
   top: -3px;
   width: 14px;
   height: 7px;
-  border: solid #f08632;
+  border: solid #140949;
   border-width: 1.5px 1.5px 0px 0px;
   -webkit-transform: rotate(127deg);
   -ms-transform: rotate(127deg);
@@ -2835,7 +2836,7 @@ ol {
 }
 .blog__details__print .primary-btn {
   background: transparent;
-  border: 1px solid #f08632;
+  border: 1px solid #140949;
   color: #111111;
 }
 .blog__details__print .primary-btn i {
