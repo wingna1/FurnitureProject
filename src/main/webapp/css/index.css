@@ -474,7 +474,7 @@ ol {
   left: 0;
   top: 82px;
   width: 150px;
-  background: #111111;
+  background: #140949;
   text-align: left;
   padding: 5px 0;
   z-index: 9;
@@ -499,11 +499,11 @@ ol {
   display: none;
 }
 .header__menu ul li a {
-  font-size: 16px;
+  font-size: 15px;
   color: #ffffff;
   display: block;
   font-weight: 600;
-  padding: 20px 35px 18px;
+  padding: 20px 18px 18px;
   letter-spacing: 1px;
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
@@ -910,3 +910,18 @@ ol {
   padding-top: 44px;
   margin-bottom: 0;
 }
+::placeholder{
+  font-size: 10px;
+}
+
+.search-input{
+  font-size: 12px;
+   border: solid;
+   border-color: #8089BF; 
+   outline: none;
+}
+.search-input:active, .search-input:focus{
+   border: solid;
+   border-color: #E5E9F5; 
+}
+

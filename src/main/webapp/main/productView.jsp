@@ -17,15 +17,9 @@
     <link rel="stylesheet" href="/furniture/css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="/furniture/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/furniture/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/furniture/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/furniture/css/main.css" type="text/css">
     
-<style>
-﻿select {
-     width:300px;
-     padding:5px;
-}
-
-</style>
+    
     <!-- Breadcrumb Begin -->
     <div class="breadcrumb-option">
         <div class="container">
@@ -37,8 +31,8 @@
                 </div> 
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="breadcrumb__links">
-                        <a href="./index.html">Home</a>
-                        <a href="./shop.html">Shop</a>
+                        <a href="/furniture/index.jsp">Home</a>
+                        <a href="/furniture/category/view/category">Shop</a>
                         <span>Sweet autumn leaves</span>
                     </div>
                 </div>
@@ -88,28 +82,26 @@
                         <h5>가격 ₩ 8,000,000</h5>
                         <p>하루를 최상의 컨디션으로 시작하려면 숙면을 취해야 하죠. 다양한 스타일의 튼튼한 IKEA 침대는 최고의 편안함과 품질을 약속해드려요. 
                           빌트인 수납처럼 스마트한 기능이 있거나 밑에 수납함을 밀어넣을 수 있는 크기의 침대도 많답니다. IKEA의 침대로 오랫동안 달콤한 꿈을 꾸는 숙면을 즐겨보세요.</p>
-                        <ul>
-                            <li> 
-                           
-                            <select name="option_color" >
-                          	<option > 색상
-								    <option value="red"> 빨강
-								    <option value="orange"> 오렌지
-								    <option value="black"> 검정
-								    <option value="green"> 초록
-								</select> 
-			
                           
-  
-                                                                                 
-                            </li>
+            <select name="option_color" id="option_color">
+                 <!--<option value="">--색상을 선택해주세요 --</option> --> 
+              	<option value="black">black</option>
+                <option value="black">blackblack</option>
+                <option value="black">blackblack</option>
+                <option value="black">blackblackblack</option>
+                <option value="black">blackblackblackblack</option>
+                <option value="black">blackblackblackblack</option>
+            </select>
+         <br>
+         <div>&emsp;</div>
+                        <ul>
                             <li>규격: <span>150x200cm</span></li>
                             <li>Tags: <span>Gadgets, minimalisstic</span></li>
                         </ul>
                         <div class="product__details__option">
                             <div class="quantity">
                                 <div class="pro-qty">
-                                    <input type="text" value="2">
+                                    <input type="text" value="1">
                                 </div>
                             </div>
                             <a href="#" class="primary-btn">Add to cart</a>
@@ -141,9 +133,9 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-8">
                                      <p class="title1">제품 사진 관련 안내</p>
-							      <hr class="hr1">
-							      
-							      위의 사진들은 모니터에 따라 약간의 색상 차이가 발생될 수 있습니다. 해당 제품은 지속적인 개선을 위하여 예고 없이 사양이 변경될 수 있습니다.<br>
+                           <hr class="hr1">
+                           
+                           위의 사진들은 모니터에 따라 약간의 색상 차이가 발생될 수 있습니다. 해당 제품은 지속적인 개선을 위하여 예고 없이 사양이 변경될 수 있습니다.<br>
                                   <br>  
                                  <P>   
                                 <img class="big_img" src="/furniture/img/shop/details/product-big-1.jpg" alt="">
@@ -177,8 +169,39 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-8">
                                     <p>리뷰 게시판
-                                      <hr class="hr1">
+                                      
+                                      
                                     </p>
+                                    <hr class="hr1">
+                                       <table  width="100%" border="0" cellpadding="3" cellspacing="0" >
+                                    <!-- ////////////////////////////////////////////////////////// -->
+                                       <tr>
+                                          <td rowspan="5">
+                                             <img width="250px" height="250px" src="/furniture/img/6.jpg">
+                                          </td>
+                                       </tr>
+
+                                       <tr height="30px">
+                                          <td>김**</td>
+                                          <td>2021.06.12</td>
+                                       </tr>
+                                       <tr>
+                                          <th colspan="2" height="50px">잠이솔솔 상품명</th>
+                                       </tr>
+                                       <tr>
+                                          <th  colspan="2" height="50px">★★★★★</th>
+                                       </tr>
+                                       <tr>
+                                          <td colspan="2" align="left" min-height="100px">너무예뻐요 영원히쓸게요 자식한테도 물려줄게요<br>
+                                          sdfsds<br>
+                                          sdfsdf<br>
+                                          sdfdsfds<br>
+                                          sdssd
+                                          </td>
+                                       </tr>
+                                       
+                                    </table>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -186,9 +209,60 @@
                         <div class="tab-pane" id="tabs-3" role="tabpanel">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-8">
-                                    <p>상품 문의 게시판
+                                    <p>상품 문의 게시판  </p>
                                       <hr class="hr1">
-                                    </p>
+                                      <div style="width:100%; height:350px; overflow:auto">
+											<table border="1" cellpadding="5" frame="hsides" rules="rows">
+												<tr>
+													<th width="100" style="background-color: #E5E9F5; text-align: center;" >글번호</th>
+													<th width="300" style="background-color: #E5E9F5; text-align: center;">제목</th>
+													<th width="100" style="background-color: #E5E9F5; text-align: center;" >작성자</th>
+													<th width="100" style="background-color: #E5E9F5; text-align: center;" >작성일</th>
+													<th width="100"style="background-color: #E5E9F5; text-align: center;" >상태</th>
+												</tr>
+												
+														<tr>
+															<td align="center">1222</td>
+															<td><a>상품문의드립니다</a></td>
+															<td align="center">김자바</td>
+															<td align="center">2021-06-12</td>
+															<td align="center">답변대기</td>
+														</tr>
+											
+														<tr>
+															<td align="center">1221</td>
+															<td><a id="subjectA" href="#">배송은언제되나요</a></td>
+															<td align="center">오라클</td>
+															<td align="center">2021-06-11</td>
+															<td align="center">답변완료</td>
+														</tr>
+														<tr>
+															<td align="center">1220</td>
+															<td><a id="subjectA" href="#">전화는왜안받나요</a></td>
+															<td align="center">스프링</td>
+															<td align="center">2021-06-10</td>
+															<td align="center">답변완료</td>
+														</tr>
+														<tr>
+															<td align="center">1219</td>
+															<td><a id="subjectA" href="#">화면이랑색깔이달라요</a></td>
+															<td align="center">홍길동</td>
+															<td align="center">2021-06-09</td>
+															<td align="center">답변완료</td>
+														</tr>
+											</table>
+											</div>
+											
+											
+	<!--	상품문의 제목 클릭시 , 제목아래로  문의내용 보이기 										
+java ee - jQuery 
+05.jQueryanimation 01,02번 참고 , 토글 
+
+	$('#btn5').bind('click',function(){
+		$('img').slideToggle(800); //slideUp, slideDown 번갈아  
+	}); -->
+											
+                                  
                                 </div>
                             </div>
                         </div>
@@ -302,7 +376,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-title">
-                        <h2>Related Products</h2>
+                        <h2>추천 상품</h2>
                     </div>
                 </div>
             </div>
@@ -310,7 +384,7 @@
                 <div class="related__products__slider owl-carousel">
                     <div class="col-lg-3">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/shop/product-1.jpg">
+                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/3.jpg">
                                 <div class="product__label">
                                     <span>Cupcake</span>
                                 </div>
@@ -326,7 +400,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/shop/product-2.jpg">
+                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/4.jpg">
                                 <div class="product__label">
                                     <span>Cupcake</span>
                                 </div>
@@ -342,7 +416,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/shop/product-3.jpg">
+                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/5.jpg">
                                 <div class="product__label">
                                     <span>Cupcake</span>
                                 </div>
@@ -358,7 +432,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/shop/product-4.jpg">
+                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/6.jpg">
                                 <div class="product__label">
                                     <span>Cupcake</span>
                                 </div>
@@ -374,7 +448,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/shop/product-5.jpg">
+                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/7.jpg">
                                 <div class="product__label">
                                     <span>Cupcake</span>
                                 </div>
@@ -390,7 +464,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/shop/product-6.jpg">
+                            <div class="product__item__pic set-bg" data-setbg="/furniture/img/8.jpg">
                                 <div class="product__label">
                                     <span>Cupcake</span>
                                 </div>

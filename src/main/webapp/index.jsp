@@ -46,16 +46,27 @@
                         <div class="header__top__inner">
                             <div class="header__top__left">
                                 <ul>
+                                	 <!-- memId ==null -->
+                                
 					                <li><a href="#">회원가입</a> </li>
-					                <li><a href="#">로그인</a> </li>
+					                <li><a href="#">로그인</a> </li> 
+					                <li><a href="#">마이페이지</a> </li> 
+                                	 <!-- memId !=null -->
+                                	 
+					               <!--  <li><a href="#">로그아웃</a> </li> 
+					                <li><a href="#">마이페이지</a> </li>  -->
+					                
+					                
                                 </ul>
                             </div>
                             <div class="header__logo">
                                 <a href="/furniture/index.jsp"><img src="/furniture/img/logo.png" alt="" width="120px" height="52px"></a>
                             </div>
                             <div class="header__top__right">
+                            
                                 <div class="header__top__right__links">
-                                    <a href="#" class="search-switch"><img src="/furniture/img/icon/search.png" alt=""></a>
+                               <input type="text" class="search-input" placeholder="검색어를 입력하세요" size="20" />&emsp;
+                                    <a href="#" ><img src="/furniture/img/icon/search.png" alt=""></a>
                                     <a href="#"><img src="/furniture/img/icon/heart.png" alt=""></a>
                                 </div>
                                 <div class="header__top__right__cart">
@@ -74,6 +85,9 @@
                 <div class="col-lg-12">
                     <nav class="header__menu mobile-menu">
                         <ul>
+                        <li><a href="/furniture/category/view/category">전체상품보기</a>
+                                
+                            </li>
                              <li><a href="#">침대</a>
                                 <ul class="dropdown">
                                     <li><a href="./shop-details.html">침대</a></li>
@@ -138,7 +152,15 @@
                                     <li><a href="./wisslist.html">카페 의자</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./blog.html">이벤트</a></li>
+                            <li><a href="#">고객지원</a>
+                            <ul class="dropdown">
+                                    <li><a href="./shop-details.html">공지</a></li>
+                                    <li><a href="./shoping-cart.html">FAQ</a></li>
+                                    <li><a href="./checkout.html">이벤트</a></li>
+                                    <li><a href="./wisslist.html">문의사항</a></li>
+                                    <li><a href="./wisslist.html">고객센터</a></li>
+                                </ul>
+                             </li>
                         </ul>
                     </nav>
                 </div>

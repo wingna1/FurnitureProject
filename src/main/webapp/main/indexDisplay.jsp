@@ -114,7 +114,7 @@
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">잠이솔솔 침대</a></h6>
+                            <h6><a href="/furniture/main/productView">잠이솔솔 침대</a></h6>
                             <div class="product__item__price">₩ 5,000,000</div>
                             <div class="cart_add">
                                 <a href="#">Add to cart</a>
