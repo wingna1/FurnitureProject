@@ -52,23 +52,23 @@
                         </div>
                         <div class="product__details__thumb">
                             <div class="pt__item active">
-                                <img data-imgbigurl="img/shop/details/product-big-2.jpg"
+                                <img data-imgbigurl="/furniture/img/shop/details/product-big-2.jpg"
                                 src="/furniture/img/shop/details/product-big-2.jpg" alt="">
                             </div>
                             <div class="pt__item">
-                                <img data-imgbigurl="img/shop/details/product-big-1.jpg"
+                                <img data-imgbigurl="/furniture/img/shop/details/product-big-1.jpg"
                                 src="/furniture/img/shop/details/product-big-1.jpg" alt="">
                             </div>
                             <div class="pt__item">
-                                <img data-imgbigurl="img/shop/details/product-big-4.jpg"
+                                <img data-imgbigurl="/furniture/img/shop/details/product-big-4.jpg"
                                 src="/furniture/img/shop/details/product-big-4.jpg" alt="">
                             </div>
                             <div class="pt__item">
-                                <img data-imgbigurl="img/shop/details/product-big-3.jpg"
+                                <img data-imgbigurl="/furniture/img/shop/details/product-big-3.jpg"
                                 src="/furniture/img/shop/details/product-big-3.jpg" alt="">
                             </div>
                             <div class="pt__item">
-                                <img data-imgbigurl="img/shop/details/product-big-5.jpg"
+                                <img data-imgbigurl="/furniture/img/shop/details/product-big-5.jpg"
                                 src="/furniture/img/shop/details/product-big-5.jpg" alt="">
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                           
             <select name="option_color" id="option_color">
                  <!--<option value="">--색상을 선택해주세요 --</option> --> 
-              	<option value="black">black</option>
+                 <option value="black">black</option>
                 <option value="black">blackblack</option>
                 <option value="black">blackblack</option>
                 <option value="black">blackblackblack</option>
@@ -137,7 +137,7 @@
                            
                            위의 사진들은 모니터에 따라 약간의 색상 차이가 발생될 수 있습니다. 해당 제품은 지속적인 개선을 위하여 예고 없이 사양이 변경될 수 있습니다.<br>
                                   <br>  
-                                 <P>   
+                                <!--  <P>   
                                 <img class="big_img" src="/furniture/img/shop/details/product-big-1.jpg" alt="">
                                 <P>     
                                 <img data-imgbigurl="img/shop/details/product-big-2.jpg"
@@ -154,7 +154,7 @@
                                  <P> 
                                 <img data-imgbigurl="img/shop/details/product-big-5.jpg"
                                 src="/furniture/img/shop/details/product-big-5.jpg" alt="">
-                                 <P> 
+                                 <P> --> 
                                     
                                     
                                     <!-- <p>This delectable Strawberry Pie is an extraordinary treat filled with sweet and
@@ -211,57 +211,82 @@
                                 <div class="col-lg-8">
                                     <p>상품 문의 게시판  </p>
                                       <hr class="hr1">
+                                      <br>
+                                      
+
+       
+     <!-- 문의 등록  -->         
+ <table style="width:100%;" cellpadding="5">                        
+    <tr>
+       <td align="center">
+         <input type="text" class="qna_write_subject" placeholder="제목입력" style="width:90%;"> 
+       </td>
+   </tr>
+    <tr>
+       <td align="center">
+       <textarea class="qna_write_content" placeholder="내용입력" style="width:90%;"></textarea>
+       </td>
+   </tr>
+    <tr>
+       <td align="center">
+       <input type="button" class="qna_write_btn" value="문의등록" >
+       </td>
+   </tr>
+</table>       
+                 <br>                                            
+                                      
+                                      
                                       <div style="width:100%; height:350px; overflow:auto">
-											<table border="1" cellpadding="5" frame="hsides" rules="rows">
-												<tr>
-													<th width="100" style="background-color: #E5E9F5; text-align: center;" >글번호</th>
-													<th width="300" style="background-color: #E5E9F5; text-align: center;">제목</th>
-													<th width="100" style="background-color: #E5E9F5; text-align: center;" >작성자</th>
-													<th width="100" style="background-color: #E5E9F5; text-align: center;" >작성일</th>
-													<th width="100"style="background-color: #E5E9F5; text-align: center;" >상태</th>
-												</tr>
-												
-														<tr>
-															<td align="center">1222</td>
-															<td><a>상품문의드립니다</a></td>
-															<td align="center">김자바</td>
-															<td align="center">2021-06-12</td>
-															<td align="center">답변대기</td>
-														</tr>
-											
-														<tr>
-															<td align="center">1221</td>
-															<td><a id="subjectA" href="#">배송은언제되나요</a></td>
-															<td align="center">오라클</td>
-															<td align="center">2021-06-11</td>
-															<td align="center">답변완료</td>
-														</tr>
-														<tr>
-															<td align="center">1220</td>
-															<td><a id="subjectA" href="#">전화는왜안받나요</a></td>
-															<td align="center">스프링</td>
-															<td align="center">2021-06-10</td>
-															<td align="center">답변완료</td>
-														</tr>
-														<tr>
-															<td align="center">1219</td>
-															<td><a id="subjectA" href="#">화면이랑색깔이달라요</a></td>
-															<td align="center">홍길동</td>
-															<td align="center">2021-06-09</td>
-															<td align="center">답변완료</td>
-														</tr>
-											</table>
-											</div>
-											
-											
-	<!--	상품문의 제목 클릭시 , 제목아래로  문의내용 보이기 										
+                                       <table class="qna_list_table"border="1" cellpadding="5" frame="hsides" rules="rows">
+                                    <tr>
+                                       <th width="100" style="background-color: #E5E9F5; text-align: center;" >글번호</th>
+                                       <th width="300" style="background-color: #E5E9F5; text-align: center;">제목</th>
+                                       <th width="100" style="background-color: #E5E9F5; text-align: center;" >작성자</th>
+                                       <th width="100" style="background-color: #E5E9F5; text-align: center;" >작성일</th>
+                                       <th width="100"style="background-color: #E5E9F5; text-align: center;" >상태</th>
+                                    </tr>
+                                    
+                                          <tr>
+                                             <td align="center">1222</td>
+                                             <td><a>상품문의드립니다</a></td>
+                                             <td align="center">김자바</td>
+                                             <td align="center">2021-06-12</td>
+                                             <td align="center">답변대기</td>
+                                          </tr>
+                                 
+                                          <tr>
+                                             <td align="center">1221</td>
+                                             <td><a id="subjectA" href="#">배송은언제되나요</a></td>
+                                             <td align="center">오라클</td>
+                                             <td align="center">2021-06-11</td>
+                                             <td align="center">답변완료</td>
+                                          </tr>
+                                          <tr>
+                                             <td align="center">1220</td>
+                                             <td><a id="subjectA" href="#">전화는왜안받나요</a></td>
+                                             <td align="center">스프링</td>
+                                             <td align="center">2021-06-10</td>
+                                             <td align="center">답변완료</td>
+                                          </tr>
+                                          <tr>
+                                             <td align="center">1219</td>
+                                             <td><a id="subjectA" href="#">화면이랑색깔이달라요</a></td>
+                                             <td align="center">홍길동</td>
+                                             <td align="center">2021-06-09</td>
+                                             <td align="center">답변완료</td>
+                                          </tr>
+                                 </table>
+                                 </div>
+                                 
+                                 
+   <!--   상품문의 제목 클릭시 , 제목아래로  문의내용 보이기                               
 java ee - jQuery 
 05.jQueryanimation 01,02번 참고 , 토글 
 
-	$('#btn5').bind('click',function(){
-		$('img').slideToggle(800); //slideUp, slideDown 번갈아  
-	}); -->
-											
+   $('#btn5').bind('click',function(){
+      $('img').slideToggle(800); //slideUp, slideDown 번갈아  
+   }); -->
+                                 
                                   
                                 </div>
                             </div>
@@ -482,7 +507,10 @@ java ee - jQuery
             </div>
         </div>
     </section>
-    <!-- Related Products Section End -->
-
+    <!-- Related Products Section End 
     
+     <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    -->
+
+        <script src="/furniture/js/productQnA.js"></script>
     
