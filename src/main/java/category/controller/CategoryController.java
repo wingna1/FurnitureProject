@@ -14,7 +14,9 @@ public class CategoryController {
 	@RequestMapping(value="/category/view/category", method=RequestMethod.GET)
 	public String category(Model model)
 	{
+		System.out.println("컨트롤러 등장");
 		model.addAttribute("display", "/category/view/category.jsp");
 		return "/index";
 	}
+
 }

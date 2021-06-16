@@ -230,6 +230,7 @@
     <tr>
        <td align="center">
        <input type="button" class="qna_write_btn" value="문의등록" >
+       <div class="qna_write_div" ></div>
        </td>
    </tr>
 </table>       
@@ -507,10 +508,8 @@ java ee - jQuery
             </div>
         </div>
     </section>
-    <!-- Related Products Section End 
+    <!-- Related Products Section End -->
     
-     <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
-    -->
-
-        <script src="/furniture/js/productQnA.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="/furniture/js/productQnA.js"></script>
     

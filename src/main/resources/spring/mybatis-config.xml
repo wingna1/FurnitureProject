@@ -6,6 +6,7 @@
 	
 	<typeAliases>
 		<typeAlias type="category.bean.CategoryDTO" alias="category"/>
+		<typeAlias type="furniture.bean.Product_qnaDTO" alias="qna"/>
 	</typeAliases>
 	
 </configuration>
