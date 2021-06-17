@@ -1,0 +1,126 @@
+#privatedataDiv h4{
+	display:inline;
+	position:relative;
+}
+.private-modifyBtn{
+	position:absolute;
+	top: 0px;
+	left: 150px;
+}
+#contactDiv h4{
+	display:inline;
+	position:relative;
+}
+.contact-modifyBtn{
+	position:absolute;
+	top: 0px;
+	left: 150px;
+}
+#passwordDiv h4{
+	display:inline;
+	position:relative;
+}
+
+.password-modifyBtn{
+	position:absolute;
+	top: 0px;
+	left: 150px;
+}
+
+.private-modifyBtn{
+  border-radius: 5px;
+  background:#fff;
+  color:#030301;
+  border:none;
+  position:relative;
+  height:30px;
+  width:50px;
+  font-size:0.9em;
+  padding:0.4em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+.contact-modifyBtn{
+ border-radius: 5px;
+  background:#fff;
+  color:#030301;
+  border:none;
+  position:relative;
+  height:30px;
+  width:50px;
+  font-size:0.9em;
+  padding:0.5em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+
+.password-modifyBtn{
+  border-radius: 5px;
+  background:#fff;
+  color:#030301;
+  border:none;
+  position:relative;
+  height:30px;
+  width:50px;
+  font-size:0.9em;
+  padding:0.5em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+
+#private-modifyBtnCancle {
+  border-radius: 5px;
+  background:#fff;
+  color:#030301;
+  border:none;
+  position:relative;
+  height:30px;
+  width:50px;
+  font-size:0.9em;
+  padding:0.4em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  	top: 0px;
+	left: 150px;
+}
+
+#contact-modifyBtnCancle {
+ border-radius: 5px;
+  background:#fff;
+  color:#030301;
+  border:none;
+  position:relative;
+  height:30px;
+  width:50px;
+  font-size:0.9em;
+  padding:0.5em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  	top: 0px;
+	left: 150px;
+}
+
+
+#password-modifyBtnCancle{
+  border-radius: 5px;
+  background:#fff;
+  color:#030301;
+  border:none;
+  position:relative;
+  height:30px;
+  width:50px;
+  font-size:0.9em;
+  padding:0.5em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  	top: 0px;
+	left: 150px;
+}

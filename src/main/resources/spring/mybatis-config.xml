@@ -6,6 +6,8 @@
 	
 	<typeAliases>
 		<typeAlias type="category.bean.CategoryDTO" alias="category"/>
+		<typeAlias type="profile.bean.ProfileDTO" alias="profile"/>
+		
 	</typeAliases>
 	
 </configuration>
