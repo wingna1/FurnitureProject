@@ -1,3 +1,36 @@
+-- 상품 문의 테이블 + 댓글
+create table product_qna (
+   id NUMBER primary key, -- 기본키, 문의seq
+   email varchar2(50), -- 이메일=아이디 ... 누가 문의를 남겼는지
+    product_id VARCHAR2(80), -- 제품명 ... 어떤 상품에 대한 문의인지 
+   qna_subject varchar2(100),  -- 문의의 제목
+   qna_content varchar2(500), -- 문의의 내용
+   created_at date, -- 등록일
+   reply number -- 댓글 수
+);
+create table product_qna_comment (
+   id NUMBER primary key, -- 기본키, 문의seq
+   product_qna_id NUMBER, -- 문의글번호
+   qna_answer varchar2(500), -- 답변
+   created_at date -- 등록일
+);
+
+
+-- 리뷰 테이블
+create table REVIEW (
+id NUMBER, -- seq
+email varchar2(50), -- 작성자
+product_id NUMBER, -- 상품코드(DB검색용)
+product_name varchar2(80), -- 상품명(출력용)
+review_stars NUMBER, -- 별점(1~5)
+review_content varchar2(200), --리뷰 내용
+review_image varchar2(100), -- 리뷰 이미지
+created_at date -- 등록일
+); 
+create sequence seq_review nocycle nocache;
+
+
+
 -- 카테고리 테이블
 create table category(
 stage NUMBER, -- 단계 depth
@@ -18,18 +51,6 @@ product_category2 NUMBER(10) -- 카테고리2
 );
 CREATE SEQUENCE seq_product nocycle nocache;
 
-
--- 제품 QnA
-create table product_qna (
-	id NUMBER primary key, -- 기본키, 문의seq
-	email varchar2(50), -- 이메일=아이디 ... 누가 문의를 남겼는지
- 	product_id VARCHAR2(80), -- 제품명 ... 어떤 상품에 대한 문의인지 
-	qna_subject varchar2(100),  -- 문의의 제목
-	qna_content varchar2(200), -- 문의의 내용
-	created_at date, -- 등록일
-	reply number -- 댓글 수
-);
-create sequence seq_productQna nocycle nocache;
 
 
 -- 회원 테이블
@@ -61,19 +82,3 @@ create table wishlist(
 	member_id VARCHAR2(80),  -- 회원아이디
 	product_id VARCHAR2(80) -- 상품아이디
 );
-
-
-create table REVIEW (
-id NUMBER, -- seq
-email varchar2(50), -- 작성자
-product_id NUMBER, -- 상품코드(DB검색용)
-product_name varchar2(80), -- 상품명(출력용)
-review_stars NUMBER, -- 별점(1~5)
-review_content varchar2(200), --리뷰 내용
-review_image varchar2(100), -- 리뷰 이미지
-created_at date -- 등록일
-); 
-create sequence seq_review nocycle nocache;
-
-
-
