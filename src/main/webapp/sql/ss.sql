@@ -14,6 +14,8 @@ create table product_qna_comment (
    qna_answer varchar2(500), -- 답변
    created_at date -- 등록일
 );
+create sequence seq_product_qna nocycle nocache;
+
 
 
 -- 리뷰 테이블
@@ -31,27 +33,33 @@ create sequence seq_review nocycle nocache;
 
 
 
--- 카테고리 테이블
-create table category(
-stage NUMBER, -- 단계 depth
-catename VARCHAR2(50), -- 카테고리명
-product_category1 NUMBER PRIMARY KEY, -- 카테고리1, 기본키
-product_category2 NUMBER -- 카테고리2
-);
-CREATE SEQUENCE seq_category nocycle nocache;
 
-
--- 제품 테이블
+상품 테이블
 CREATE TABLE product(
 id NUMBER PRIMARY KEY,
 product_name VARCHAR2(50), -- 제품명
 product_price NUMBER, --가격
-product_category1 NUMBER(10), -- 카테고리1
-product_category2 NUMBER(10) -- 카테고리2
+product_category1 VARCHAR2(50), -- 카테고리1
+product_category2 VARCHAR2(50), -- 카테고리2
+product_img_thumb VARCHAR2(500),
+product_img_detail VARCHAR2(500)
 );
+
+상품 seq문
 CREATE SEQUENCE seq_product nocycle nocache;
 
+---------------------------------------------------------------
 
+insert into product values (seq_product.nextval, '잠이솔솔 침대', 5000000, '소파베드', '침대', '침대.png','');
+insert into product values (seq_product.nextval, '푹신한 소파', 8000000, '패브릭소파', '소파', '소파.png','');
+insert into product values (seq_product.nextval, '튼튼 책장', 4000000, '큐브형수납',' 책장/선반유닛', '책장.png','');
+insert into product values (seq_product.nextval, '밥잘먹는 식탁', 3000000, '책상/컴퓨터책상', '식탁/책상', '밥상.png','');
+insert into product values (seq_product.nextval, '책책책 수납장', 1000000, '거실장/찬장', '수납장/장식장', '수납장.png','');
+insert into product values (seq_product.nextval, '더사더사 옷장', 2000000, '여닫이옷장', '옷장', '옷장.png','');
+insert into product values (seq_product.nextval, '너도나도 앉아의자', 4000000, '사무용의자', '의자', '의자.png','');
+insert into product values (seq_product.nextval, '희희', 2000000, '수납형침대', '침대', '침대.png','');
+
+---------------------------------------------------------------
 
 -- 회원 테이블
 create table member(
@@ -74,7 +82,7 @@ CREATE TABLE cart(
 	id NUMBER PRIMARY KEY,               
 	member_id VARCHAR2(80),  -- 회원아이디
 	product_id VARCHAR2(80), -- 상품아이디
-	product_count NUMBER -- 상품개수 (재고)
+	product_count NUMBER -- 상품개수
 );
 
 create table wishlist(

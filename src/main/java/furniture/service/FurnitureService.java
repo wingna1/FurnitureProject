@@ -1,6 +1,7 @@
 package furniture.service;
 
 import java.util.List;
+import java.util.Map;
 
 import furniture.bean.Product_qnaDTO;
 import furniture.bean.Product_qna_paging;
@@ -19,6 +20,8 @@ public interface FurnitureService {
 	public List<ReviewDTO> reviewList(String pg);
 
 	public Review_paging review_paging(String pg);
+
+	public List<ReviewDTO> reviewListTop5();
 
 
 }

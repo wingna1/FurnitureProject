@@ -24,13 +24,29 @@
 		)where rn &gt;= #{startNum} and rn &lt;= #{endNum}
 	</select>
 
-	<!-- 리뷰 전체 리스트 -->
-	<select id="reviewList" resultType="review">
-		select * from review
-	</select>
-
 	<!-- 상품 문의 총 글수 -->
 	<select id="getTotalQNA" resultType="int">
 		select count(*) from product_qna
+	</select>
+
+	<!-- 리뷰 전체 리스트 + 페이징 -->
+	<select id="reviewList" resultType="review" parameterType="java.util.Map">
+ 		select * from 
+		(select rownum rn, tt.* from 
+		(select * from review order by id desc)tt
+		)where rn &gt;= #{startNum} and rn &lt;= #{endNum}
+	</select>
+
+	<!-- 리뷰 top 5 -->
+	<select id="reviewListTop5" resultType="review">
+		  SELECT *
+		  FROM REVIEW
+		  WHERE ROWNUM &lt;= 5
+		  ORDER BY review_stars desc	
+    </select> 
+
+	<!-- 상품 리뷰 총 글수 -->
+	<select id="getTotalReview" resultType="int">
+		select count(*) from review
 	</select>
 </mapper>

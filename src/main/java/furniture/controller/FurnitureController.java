@@ -79,13 +79,25 @@ public class FurnitureController {
 	@RequestMapping(value = "/main/reviewList", method = RequestMethod.POST)
 	public ModelAndView reviewList(@RequestParam(required = false, defaultValue = "1") String pg) {
 		List<ReviewDTO> reviewList = furnitureService.reviewList(pg);
-
 		// 페이징 처리
 		Review_paging review_paging = furnitureService.review_paging(pg);
 
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("reviewList", reviewList);
 		mav.addObject("review_paging", review_paging);
+		mav.setViewName("jsonView");
+		return mav;
+	}
+	
+	// 메인 페이지 ... review ... 최신순 5개만!!!
+	@ResponseBody
+	@RequestMapping(value = "/main/reviewListTop5", method = RequestMethod.POST)
+	public ModelAndView reviewListTop5() {
+		System.out.println("Controller");
+		List<ReviewDTO> reviewListTop5 = furnitureService.reviewListTop5();
+//		System.out.println(reviewListTop5);
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("reviewListTop5", reviewListTop5);
 		mav.setViewName("jsonView");
 		return mav;
 	}

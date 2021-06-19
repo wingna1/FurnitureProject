@@ -2,20 +2,15 @@
 create table product_qna (
    id NUMBER primary key, -- 기본키, 문의seq
    email varchar2(50), -- 이메일=아이디 ... 누가 문의를 남겼는지
-    product_id VARCHAR2(80), -- 제품명 ... 어떤 상품에 대한 문의인지 
+   product_id VARCHAR2(80), -- 제품명 ... 어떤 상품에 대한 문의인지 
    qna_subject varchar2(100),  -- 문의의 제목
    qna_content varchar2(500), -- 문의의 내용
-   created_at date, -- 등록일
-   reply number -- 댓글 수
-);
-create table product_qna_comment (
-   id NUMBER primary key, -- 기본키, 문의seq
-   product_qna_id NUMBER, -- 문의글번호
+   created_atQ date, -- 질문등록일
+   reply number, -- 댓글 수
    qna_answer varchar2(500), -- 답변
-   created_at date -- 등록일
+   created_atA date -- 답변등록일
 );
 create sequence seq_product_qna nocycle nocache;
-
 
 
 -- 리뷰 테이블
@@ -33,19 +28,20 @@ create sequence seq_review nocycle nocache;
 
 
 
--- 카테고리 테이블은 사용하지 않고 상품 테이블에서 사용합니다!
 
-상품 테이블
+--상품 테이블
 CREATE TABLE product(
-id NUMBER PRIMARY KEY,
+id NUMBER PRIMARY KEY, -- seq 
 product_name VARCHAR2(50), -- 제품명
+product_code VARCHAR2(50), --제품코드
 product_price NUMBER, --가격
+product_category_name VARCHAR2(50), -- 카테고리명
 product_category1 VARCHAR2(50), -- 카테고리1
-product_category2 VARCHAR2(50), -- 카테고리2
+product_category2 VARCHAR2(50)-- 카테고리2
 product_img_thumb VARCHAR2(500),
-product_img_detail VARCHAR2(500)
+product_img_detail VARCHAR2(500),
+stock NUMBER --재고
 );
-
 상품 seq문
 CREATE SEQUENCE seq_product nocycle nocache;
 

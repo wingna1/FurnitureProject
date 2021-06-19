@@ -25,18 +25,18 @@ public class Review_paging {
 		if(endPage > totalP) endPage = totalP;
 		
 		if(startPage > pageBlock)
-			pagingHTML.append("<span id='paging' onclick='Review_paging("+(startPage-1)+")'>[이전]</span>");
+			pagingHTML.append("<span id='paging' onclick='review_paging("+(startPage-1)+")'>[이전]</span>");
 		
 		for(int i=startPage; i<=endPage; i++) {
 			if(i==currentPage) {
-				pagingHTML.append("[ <span id='currentPaging' onclick='Review_paging("+i+")'>"+i+"</span> ]");
+				pagingHTML.append("[ <span id='currentPaging' onclick='review_paging("+i+")'>"+i+"</span> ]");
 			}else {
-				pagingHTML.append("[ <span id='paging' onclick='Review_paging("+i+")'>"+i+"</span> ]");
+				pagingHTML.append("[ <span id='paging' onclick='review_paging("+i+")'>"+i+"</span> ]");
 			}
 		}//for
 		
 		if(endPage < totalP)
-			pagingHTML.append("<span id='paging' onclick='Review_paging("+(endPage+1)+")'>[다음]</span>");
+			pagingHTML.append("<span id='paging' onclick='review_paging("+(endPage+1)+")'>[다음]</span>");
 	}
 
 	

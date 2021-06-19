@@ -90,12 +90,15 @@ textarea:focus {
   outline: none;
 }
 
-a:hover,
+a:hover{
+  text-decoration: none;
+  outline: none;
+} /* color: white를 지웠음!*/
 a:focus {
   text-decoration: none;
   outline: none;
-  color: #ffffff;
-}
+  color: #140949;
+} /* color: white를 지웠음!*/
 
 ul,
 ol {
@@ -3634,4 +3637,6 @@ ol {
   .checkout__order__products span {
     display: none;
   }
-}
+  
+	
+

@@ -21,6 +21,29 @@
     <link rel="stylesheet" href="/furniture/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/furniture/css/main.css" type="text/css">
     
+    <style type="text/css">
+	  #paging, #currentPaging{
+	  	cursor: pointer;
+	  }
+	  #currentPaging{
+	  	color: #8089BF;
+	  	font-weight: bold;
+	  }
+	  .no_padding{
+	  	margin: 0px;
+	  	padding: 0px;
+	  	height: 30px;
+	  	font-size: x-large;
+	  }
+	  #qna_content, #qna_answer{
+	  	padding: 10px;
+	  	height: 80px;
+	  }
+	  .primary-btn:hover, .primary-btn:focus{
+	  	color: white;
+	  }
+    </style>
+    
     
     <!-- Breadcrumb Begin -->
     <div class="breadcrumb-option">
@@ -151,8 +174,6 @@
                             </div>
                         </div>
                         
-                        
-                        
                      <!-- 상품 리뷰 from DB -->
                         <div class="tab-pane" id="tabs-2" role="tabpanel">
                             <div class="row d-flex justify-content-center">
@@ -160,15 +181,12 @@
                                     <p>리뷰 게시판</p>
                                     <hr class="hr1">
                                     
-                                    <table id="review_list_table" width="100%" border="0" cellpadding="3" cellspacing="0" >
-                                    </table>
-                                    
-                                    <div id="review_listPagingDiv"></div>
+                                    <table id="review_list_table" cellpadding="3" ></table>
+                                    <br>
+                                    <div id="review_listPagingDiv"  style="float: left; width: 100%; text-align: center;"></div>
 	                            </div>
                             </div>
                         </div>
-                        
-                        
                         
                      <!-- 상품 문의 from DB -->
                         <div class="tab-pane" id="tabs-3" role="tabpanel">
@@ -199,32 +217,24 @@
 									<br>                                            
                                       
                                     <!-- 문의 리스트 -->
-									<div style="width:100%; height:350px; overflow:auto">
+									<div style="width:100%;  overflow:auto">
 										<input type="hidden" id="pg" value="${pg }"> <%--Controller부터 오는 pg --%>
                                       
-										<table class="qna_list_table"border="1" cellpadding="5" frame="hsides" rules="rows">
+										<table class="qna_list_table" width="100%" border="1" cellpadding="5" frame="hsides" rules="rows">
 											<tr>
-												<th width="100" style="background-color: #E5E9F5; text-align: center;" >글번호</th>
-												<th width="300" style="background-color: #E5E9F5; text-align: center;">제목</th>
-												<th width="100" style="background-color: #E5E9F5; text-align: center;" >작성자</th>
-												<th width="100" style="background-color: #E5E9F5; text-align: center;" >작성일</th>
-												<th width="100"style="background-color: #E5E9F5; text-align: center;" >상태</th>
+												<th style="background-color: #e5e9f5; text-align: center;" >글번호</th>
+												<th width="300" style="background-color: #e5e9f5; text-align: left;">제목</th>
+												<th style="background-color: #e5e9f5; text-align: center;" >작성자</th>
+												<th style="background-color: #e5e9f5; text-align: center;" >작성일</th>
+												<th style="background-color: #e5e9f5; text-align: center;" >상태</th>
 												<!-- 상태 reply 0이면 답변 대기중 -->
 											</tr>
 												
 										</table>
-										<div id="qna_listPagingDiv" style="float: left; width: 750px; text-align: center;" ></div>	
+										<br>
+										<div id="qna_listPagingDiv" style="float: left; width: 100%; text-align: center;" ></div>	
 									</div>
 											
-								<!--	
-								상품문의 제목 클릭시 , 제목아래로  문의내용 보이기 										
-								java ee - jQuery 
-								05.jQueryanimation 01,02번 참고 , 토글 
-								
-								$('#btn5').bind('click',function(){
-									$('img').slideToggle(800); //slideUp, slideDown 번갈아  
-								}); 
-								-->
                                 </div>
                             </div>
                         </div>
