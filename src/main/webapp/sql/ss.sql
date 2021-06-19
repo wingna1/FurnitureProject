@@ -49,3 +49,18 @@ create table wishlist(
 	member_id VARCHAR2(80),  -- 회원아이디
 	product_id VARCHAR2(80) -- 상품아이디
 );
+
+create table member(
+id NUMBER primary key, —기본키
+email varchar2(50), --이메일 = 아이디
+name varchar2(30), -- 이름(수령인)
+password varchar2(30), -- 비밀번호(암호화 필수)
+phone varchar2(30), -- 전화번호
+zipcode varchar2(10), -- 우편번호
+addr1 varchar2(100), -- 주소1
+addr2 varchar2(100), -- 주소2
+birthday date, -- 생일(생일쿠폰용)
+created_at date) -- 생성일
+;
+create sequence seq_member nocycle nocache;
+

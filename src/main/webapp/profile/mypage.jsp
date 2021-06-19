@@ -14,25 +14,27 @@
 
 
 <!-- 이름,생일, 주소를 알려주는 제목 -->
-<div id="privatedataDiv" class="privateData">
+<div id="mypageP" class="mypageP">
 <h4>개인 정보</h4>
 
 <!-- 수정버튼 -->
-<div id="private-closing">
-<button class="private-modifyBtn" id="private-modifyBtn" type="button">수정</button>
-<div class="birth" id="birth"><p><h5>생년월일</h5></p></div>
-<div class="name" id="name"><p><h5>이름</h5></p></div>
-<div class="address" id="address"><p><h5>주소지</h5></p></div>
+<div id="mypagePrivate">
+<button class="mypagePrivateModifyOpenBtn" id="mypagePrivateModifyOpenBtn" type="button">수정</button>
+<div class="mypagePrivateName" id="mypagePrivateName"><h5>이름</h5></div>
+<div class="mypagePrivateBirth" id="mypagePrivateBirth"><h5>생년월일</h5></div>
+<div class="mypagePrivateAddress" id="mypagePrivateAddress"><h5>주소지</h5></div>
 </div>
 
 
-<div id="dataPrivateDiv">
-<button class="private-modifyBtnCancle" id="private-modifyBtnCancle" type="button">닫기</button>
-<p><input type="text" name="dataName" id="dataName" style="border:0;"></p>
-<p><input type="text" name="dataBirth" id="dataBirth" style="border:0;"></p>
-<p><input type="text" name="dataAddress" id="dataAddress" style="border:0;"></p>
-<p><input type="button" value="취소"></p>
-<p><input type="button" value="저장" id="saveBtn"></p>
+<div id="mypagePrivateModify">
+<button class="mypagePrivateModifyClosingBtn" id="mypagePrivateModifyClosingBtn" type="button">닫기</button>
+<div><input type="text" name="mypagePrivateModifyName" id="mypagePrivateModifyName" style="border:0;"></div>
+<div id="mypageNameDiv"></div>
+<div><input type="text" name="mypagePrivateModifyBirth" id="mypagePrivateModifyBirth" style="border:0;"></div>
+<div id="mypageBirthDiv"></div>
+<div><input type="text" name="mypagePrivateModifyAddress" id="mypagePrivateModifyAddress" style="border:0;"></div>
+<div id="mypageAddressDiv"></div>
+<input type="button" value="저장" id="mypagePrivateModifyBtn">
 </div>
 </div>
 
@@ -40,40 +42,41 @@
 <hr class="profile__divider">
 
 <!-- 핸드폰, 이메일 구분제목-->
-<div id="contactDiv" class="contactData">
+<div id="mypageC" class="mypageC">
 <h4>연락처</h4>
 
 <!-- 수정버튼 -->
-<div id="contact-closing">
-<button class="contact-modifyBtn" id="contact-modifyBtn" type="button">수정</button>
-<div class="phonenumber" id="phonenumber"><p><h5>휴대폰번호</h5></p></div>
-<div class="email" id="email"><p><h5>이메일</h5></p></div>
+<div id="mypageContact">
+<button class="mypageContactModifyOpenBtn" id="mypageContactModifyOpenBtn" type="button">수정</button>
+<div class="mypageContactPhone" id="mypageContactPhone"><h5>휴대폰번호</h5></div>
+<div class="mypageContactEmail" id="mypageContactEmail"><h5>이메일</h5></div>
 </div>
 
-<div id="dataContactDiv">
-<button class="contact-modifyBtnCancle" id="contact-modifyBtnCancle" type="button">닫기</button>
-<p><input type="text" name="dataPhone" id="dataPhone" style="border:0;"></p>
-<p><input type="text" name="dataEmail" id="dataEmail" style="border:0;"></p>
-<p><input type="button" value="취소"></p>
-<p><input type="button" value="저장" id="saveBtn"></p>
+<div id="mypageContactModify">
+<button class="mypageContactModifyClosingBtn" id="mypageContactModifyClosingBtn" type="button">닫기</button>
+<div><input type="text" name="mypageContactModifyPhone" id="mypageContactModifyPhone" style="border:0;"></div>
+<div id="mypagePhoneDiv"></div>
+<div><input type="text" name="mypageContactModifyEmail" id="mypageContactModifyEmail" style="border:0;"></div>
+<div id="mypageEmailDiv"></div>
+<div><input type="button" value="저장" id="mypageContactModifyBtn"></div>
 </div>
 </div>
 <hr class="profile__divider">
 
 <!-- 비밀번호 구분제목-->
-<div id="passwordDiv" class="passwordData">
+<div id="mypageP" class="mypageP">
 <h4>비밀번호</h4>
 <!-- 수정버튼 -->
-<div id="password-closing">
-<button class="password-modifyBtn" id="password-modifyBtn" type="button">수정</button>
-<div class="password" id="password"><p><h5>비밀번호</h5></p></div>
+<div id="mypagePassword">
+<button class="mypagePasswordOpenBtn" id="mypagePasswordOpenBtn" type="button">수정</button>
+<div class="mypagePasswordPassword" id="mypagePasswordPassword"><h5>비밀번호</h5></div>
 </div>
 
-<div id="dataPasswordDiv">
-<button class="private-modifyBtnCancle" id="password-modifyBtnCancle" type="button">닫기</button>
-<p><input type="text" name="dataPwd" id="dataPwd" style="border:0;"></p>
-<p><input type="button" value="취소"></p>
-<p><input type="button" value="저장" id="saveBtn"></p>
+<div id="mypagePasswordModify">
+<button class="mypagePasswordClosingBtn" id="mypagePasswordClosingBtn" type="button">닫기</button>
+<div><input type="text" name="mypagePasswordModifyPassword" id="mypagePasswordModifyPassword" style="border:0;"></div>
+<div id="mypagePasswordDiv"></div>
+<input type="button" value="저장" id="mypagePasswordModifyBtn">
 </div>
 </div>
 
