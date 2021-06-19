@@ -1,79 +1,70 @@
-#privatedataDiv h4{
+#mypagePrivate h4{
 	display:inline;
 	position:relative;
 }
-.private-modifyBtn{
+.mypagePrivateModifyOpenBtn{
 	position:absolute;
 	top: 0px;
 	left: 150px;
+	border-radius: 5px;
+	background:#fff;
+	color:#030301;
+	border:none;
+	position:relative;
+	height:30px;
+	width:50px;
+	font-size:0.9em;
+	padding:0.4em;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
 }
-#contactDiv h4{
+#mypageContact h4{
 	display:inline;
 	position:relative;
 }
-.contact-modifyBtn{
+.mypageContactModifyOpenBtn{
 	position:absolute;
 	top: 0px;
 	left: 150px;
+	border-radius: 5px;
+	background:#fff;
+	color:#030301;
+	border:none;
+	position:relative;
+	height:30px;
+	width:50px;
+	font-size:0.9em;
+	padding:0.5em;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
 }
-#passwordDiv h4{
+#mypagePassword h4{
 	display:inline;
 	position:relative;
 }
 
-.password-modifyBtn{
+.mypagePasswordOpenBtn{
 	position:absolute;
 	top: 0px;
 	left: 150px;
-}
-
-.private-modifyBtn{
-  border-radius: 5px;
-  background:#fff;
-  color:#030301;
-  border:none;
-  position:relative;
-  height:30px;
-  width:50px;
-  font-size:0.9em;
-  padding:0.4em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-}
-
-.contact-modifyBtn{
- border-radius: 5px;
-  background:#fff;
-  color:#030301;
-  border:none;
-  position:relative;
-  height:30px;
-  width:50px;
-  font-size:0.9em;
-  padding:0.5em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
+	border-radius: 5px;
+	background:#fff;
+	color:#030301;
+	border:none;
+	position:relative;
+	height:30px;
+	width:50px;
+	font-size:0.9em;
+	padding:0.5em;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
 }
 
 
-.password-modifyBtn{
-  border-radius: 5px;
-  background:#fff;
-  color:#030301;
-  border:none;
-  position:relative;
-  height:30px;
-  width:50px;
-  font-size:0.9em;
-  padding:0.5em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-}
-
-#private-modifyBtnCancle {
+#mypagePrivateModifyClosingBtn {
   border-radius: 5px;
   background:#fff;
   color:#030301;
@@ -90,7 +81,7 @@
 	left: 150px;
 }
 
-#contact-modifyBtnCancle {
+#mypageContactModifyClosingBtn {
  border-radius: 5px;
   background:#fff;
   color:#030301;
@@ -108,7 +99,7 @@
 }
 
 
-#password-modifyBtnCancle{
+#mypagePasswordClosingBtn{
   border-radius: 5px;
   background:#fff;
   color:#030301;
