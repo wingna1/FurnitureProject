@@ -105,3 +105,20 @@ created_at date) -- 생성일
 ;
 create sequence seq_member nocycle nocache;
 
+--문의 테이블
+create table member(
+id NUMBER primary key, -- 기본키
+email varchar2(60), -- 이메일 = 아이디
+name varchar2(30), -- 이름
+password varchar2(30), -- 비밀번호(암호화 필수)
+phone varchar2(50), -- 핸드폰번호
+zipcode varchar2(50), -- 우편번호
+addr1 varchar2(200), -- 주소1
+addr2 varchar2(200), -- 주소2
+bir_yy varchar2(10), -- 생일 연도
+bir_mm varchar2(10), -- 생일 월
+bir_dd varchar2(10), -- 생일 일
+point varchar2(100), -- 포인트
+created_at date -- 생성일
+);
+create sequence seq_member nocycle nocache;
