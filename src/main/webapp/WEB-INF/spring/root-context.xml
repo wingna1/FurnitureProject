@@ -14,7 +14,9 @@
 	<context:component-scan base-package="furniture.bean" />
 	<context:component-scan base-package="furniture.dao" />
 	<context:component-scan base-package="spring.conf" />
-	
-	
+
+	<context:component-scan base-package="profile.service" />
+	<context:component-scan base-package="profile.bean" />
+	<context:component-scan base-package="profile.dao" />
 	
 </beans>

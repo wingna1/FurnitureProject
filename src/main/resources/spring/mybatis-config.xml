@@ -8,6 +8,7 @@
 		<typeAlias type="category.bean.CategoryDTO" alias="category"/>
       	<typeAlias type="furniture.bean.Product_qnaDTO" alias="qna"/>      	
       	<typeAlias type="furniture.bean.ReviewDTO" alias="review"/>      	
+		<typeAlias type="profile.bean.ProfileDTO" alias="profile"/>
 	</typeAliases>
 	
 </configuration>
