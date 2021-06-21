@@ -46,17 +46,15 @@
                         <div class="header__top__inner">
                             <div class="header__top__left">
                                 <ul>
-                                	 <!-- memId ==null -->
-                                
-					                <li><a href="#">회원가입</a> </li>
-					                <li><a href="#">로그인</a> </li> 
-					                <li><a href="/furniture/profile/profile">마이페이지</a> </li> 
-                                	 <!-- memId !=null -->
-                                	 
-					               <!--  <li><a href="#">로그아웃</a> </li> 
-					                <li><a href="#">마이페이지</a> </li>  -->
-					                
-					                
+                                    <c:if test="${sessionScope.memEmail == null }">
+                                        <li><a href="#">회원가입</a> </li>
+                                        <li><a href="/furniture/member/loginForm">로그인</a> </li>
+                                        <li><a href="/furniture/profile/profile">마이페이지</a> </li>
+                                    </c:if>
+                                    <c:if test="${sessionScope.memEmail != null }">
+                                        <li><a href="/furniture/member/logout">로그아웃</a> </li>
+                                        <li><a href="/furniture/profile/profile">마이페이지</a> </li>
+                                    </c:if>
                                 </ul>
                             </div>
                             <div class="header__logo">
