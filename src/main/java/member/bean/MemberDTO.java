@@ -6,6 +6,7 @@ import java.sql.Date;
 
 @Data
 public class MemberDTO {
+	private String authKey;
     private int id;
     private String email;
     private String name;
